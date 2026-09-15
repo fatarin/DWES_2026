@@ -1,0 +1,56 @@
+
+
+header{
+    text-align: center;
+}
+
+.main_destacado{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}    
+
+.destacado{
+    border: solid 1px green;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.sections{
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul:hover{
+    color: green;
+}
+
+.parrilla_productos{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ficha_producto{
+    width: 15%;
+    padding: 20px;
+}
+
+.ficha_producto_view{
+    color:white;
+}
+
+.ficha_producto_view:hover{
+    color: black;
+}
