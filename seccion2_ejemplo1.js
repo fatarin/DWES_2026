@@ -1,22 +1,15 @@
 var name = 'Fernando';
 var age = 29;
-var hobbies = false;
+var hobbies = true;
 
 function summarizeUser  (userName, userAge, userHasHobby){
-    c
-    
     return (
         'El nombre es ' +
         userName +
         ' y su edad ' +
-        userAge + 
-        ' y ' +
-        (userHasHobby ? 'si tiene hobbies' : ' no tiene hobbies')
-        
+        userAge
+
     );
 }
-
-
-
 
 console.log(summarizeUser(name, age, hobbies));
